@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+	body{
+max-width: 1960px;
+margin-right: auto;
+margin-left: 0;
+display: block;
+}
+
+/*Menu layout*/
+menu{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	width: 270px;
+		margin:0;
+	padding: 0;
+	display: block;
+}
+menu ul{
+	
+list-style-type: none;
+margin:0;
+padding: 0;
+overflow: hidden;
+
+	
+}
+menu ul li{
+	height: 113px;
+}
+menu ul li a{
+
+	display: block;
+	color: #000000;
+	text-align: center;
+	vertical-align: center;
+	padding: 40px 30px;
+	text-decoration: none;
+
+}
+
+main{
+	position: absolute;
+	left: 270px;
+	border: solid 20px red;
+z-index: -1;
+	}
+section1{
+	height: 100px;
+}
+section2{
+	height: 100px;
+	top:100px;
+}
+/*colors*/
+body{
+	background-color: darkgrey;
+
+}
+li.home{
+	background-color: green;
+
+box-shadow: 0px -5px 5px 10px 
+
+
+	}
+li.past{
+	background-color: blue;
+	box-shadow: 0px -5px 30px #333333; 
+
+}
+li.present{
+	background-color: purple;
+
+	box-shadow: 0px -5px 30px #333333;
+}
+
+li.cv{
+	background-color: red;
+	
+	box-shadow: 0px -5px 30px #333333;
+
+}
+li.hobbies{
+	background-color: orange;
+	
+	box-shadow: 0px -5px 30px #333333;
+}
+li.contact{
+	background-color: yellow;
+	
+	box-shadow: 0px -5px 30px #333333;
+}
+main{
+		background-color: black;
+	}
+
+section1{
+	background-color: lightgreen;
+}
+section2{
+	background-color: lightblue;
+}
+
+/*images sizes*/
+section1>img{
+	margin:0;
+	padding:0;
+	height: 50px;
+	width: 50px;
+}
