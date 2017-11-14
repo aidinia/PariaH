@@ -25,6 +25,7 @@ list-style-type: none;
 margin:0;
 padding: 0;
 overflow: hidden;
+box-shadow: 5px 0px 30px #333333; 
 
 	
 }
@@ -62,37 +63,32 @@ body{
 }
 li.home{
 	background-color: green;
-
-box-shadow: 0px -5px 5px 10px 
+ 	box-shadow: 0px -5px 10px #333333 inset; 
 
 
 	}
 li.past{
 	background-color: blue;
-	box-shadow: 0px -5px 30px #333333; 
+	box-shadow: 0px -5px 10px #333333 inset; 
 
 }
 li.present{
 	background-color: purple;
 
-	box-shadow: 0px -5px 30px #333333;
+	box-shadow: 0px -5px 10px #333333 inset; 
 }
 
 li.cv{
 	background-color: red;
-	
-	box-shadow: 0px -5px 30px #333333;
-
+	box-shadow: 0px -5px 10px #333333 inset; 
 }
 li.hobbies{
 	background-color: orange;
-	
-	box-shadow: 0px -5px 30px #333333;
+	box-shadow: 0px -5px 10px #333333 inset; 
 }
 li.contact{
 	background-color: yellow;
-	
-	box-shadow: 0px -5px 30px #333333;
+	box-shadow: 0px -5px 10px #333333 inset; 
 }
 main{
 		background-color: black;
@@ -106,9 +102,17 @@ section2{
 }
 
 /*images sizes*/
-section1>img{
+section1 img{
 	margin:0;
 	padding:0;
 	height: 50px;
 	width: 50px;
+}
+
+/*fonts*/
+menu ul li a{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	color: 	 #ffffff;
+	text-shadow: 2px 2px #666666;
 }

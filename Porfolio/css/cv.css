@@ -130,6 +130,11 @@ text-align: right;
 }
 
 /*text color and styles*/
+li.cv{
+	box-shadow: 0px 0px 30px 5px #333333 inset;  
+
+}
+
 
 main{
 	background-color: white;
