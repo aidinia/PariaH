@@ -48,7 +48,7 @@ menu ul li a{
 }
 /* Main layout*/
 main{
-	height: 100%;
+	
 	position: absolute;
 	left: 270px;
 	z-index: -1;
