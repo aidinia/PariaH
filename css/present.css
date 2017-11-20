@@ -15,7 +15,7 @@ li.present:hover{
 	ackground-color: #800080;
 }
 main .intro{
-
+	text-indent: 20px;
 	margin: 50px 5px;
 	width: 98%;
 	float: left;
