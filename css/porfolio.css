@@ -137,16 +137,16 @@ section1{
 	float: left;
 	background-color: #008000;
 	height: 17%;
-	
+	object-fit: cover;
 }
 section2{
-
+object-fit: cover;
 	float: left;
 	background-color: #0000e6;
 	height: 17%;
 }
 section3{
-
+object-fit: cover;
 	float: left;
 	background-color: #800080;
 	height: 17%;
