@@ -49,10 +49,11 @@ menu ul li a{
 /* Main layout*/
 main{
 	
-	position: absolute;
+	position: fixed;
 	left: 270px;
 	z-index: -1;
 	max-width: 1900px;
+	height: 100%;
 
 		}
 /* footer{

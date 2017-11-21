@@ -9,8 +9,15 @@
 	padding-top: 20px;
 }
 .professional{
+	padding: 15px;
 	float: left;
-
+	background-color: rgba(255, 0, 0, 0.2)
+}
+.segundo{
+	width: 100%;
+	padding: 5px;
+	float: left;
+	background-color: rgba(255, 0, 0, 0.3)
 }
 .interest{
 	margin-top: 15px;
@@ -22,6 +29,12 @@
 	padding-right: 10px;
 	margin-top: 15px;
 	width: 45%
+}
+.tercero{
+	width: 100%;
+	padding: 5px;
+	float: left;
+	background-color: rgba(255, 0, 0, 0.4)
 }
 .diplomas{
 	float: left;
@@ -129,6 +142,18 @@ text-align: right;
 	
 	width: 50px;
 	float: left;
+}
+.personalprofile .icon:hover, .skills .icon:hover, .education .icon:hover{
+	transition:all 1s ease-in-out;
+  perspective: 800px;
+  perspective-origin: 50% 100px;
+  transform:rotateZ(-360deg);
+}
+.dataLanguage .icon:hover, .professional .icon:hover, .interest .icon:hover, .diplomas .icon:hover  {
+	transition:all 1s ease-in-out;
+  perspective: 800px;
+  perspective-origin: 50% 100px;
+  transform:rotateZ(360deg);
 }
 
 /*text color and styles*/
