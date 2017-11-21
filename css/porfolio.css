@@ -138,16 +138,16 @@ section1{
 	float: left;
 	background-color: #008000;
 	height: 17%;
-	object-fit: cover;
+	
 }
 section2{
-object-fit: cover;
+
 	float: left;
 	background-color: #0000e6;
 	height: 17%;
 }
 section3{
-object-fit: cover;
+
 	float: left;
 	background-color: #800080;
 	height: 17%;
@@ -177,7 +177,6 @@ section1 img, section2 img, section3 img, section4 img, section5 img, section6 i
 	padding:0;
 	width: 3.98%;
 	float: left;
-	object-fit: cover;
 	opacity: 0.7;
 }
 section1 img:hover, section2 img:hover, section3 img:hover, section4 img:hover, section5 img:hover, section6 img:hover{
