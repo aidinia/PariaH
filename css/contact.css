@@ -1,0 +1,66 @@
+/* basic layout menu and back color */
+body{
+	background-color: #ffff00;
+}
+main{
+	background-color: #b1acac;
+	font-family: 'Special Elite', cursive;
+	color: #ffee00;
+	border: solid 20px #ffff00;
+	
+
+}
+li.contact{
+	background-color: #ffff4d;
+	box-shadow: 0px 5px 30px 8px #999900 inset;
+}
+li.contact:hover{
+	background-color: #ffff4d;
+}
+main .intro{
+text-indent: 20px;
+float: left;
+
+}
+.segundo{
+	width: 100%;
+	padding: 5px;
+	float: left;
+	background-color: rgba(255, 255, 0, 0.3)
+}
+section.map{
+	width: 45%;
+	float:left;
+	padding: 5px;
+	
+}
+section#linkedin{
+float: right;
+width: 40%;
+/*padding: 10px;*/
+}
+
+
+/*text*/
+section.intro h2{
+	text-align: left;
+	padding: 40px;
+	height: 
+}
+section.intro #texto{
+	padding: 50px 10px;
+	float: left;
+	text-align: left;
+	width: 45%;
+}
+section.contact, section.contact p{	
+	float: left;
+width: 60%;
+}
+
+/*images & icons */
+img.icon{
+	width: 25px;
+	float: left;
+	padding:0px 10px;
+}

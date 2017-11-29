@@ -1,5 +1,7 @@
 /* basic layout menu and back color */
-
+body{
+	background-color: #800080;
+}
 main{
 	background-color: #b1acac;
 	font-family: 'Special Elite', cursive;
@@ -42,7 +44,7 @@ main img{
 
 /*text*/
 section.intro h2{
-	text-align: right;
+	text-align: left;
 	padding: 40px;
 	height: 
 }

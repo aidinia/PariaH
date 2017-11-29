@@ -1,38 +1,38 @@
 /* basic layout menu and back color */
 body{
-	background-color: #0000e6;
+	background-color: #ff8a00;
 }
 main{
 	background-color: #b1acac;
 	font-family: 'Special Elite', cursive;
-	color: #00008c;
-	border: solid 20px #0000e6;
+	color: #b37400;
+	border: solid 20px #ff8a00;
 
 }
-li.past{
-	box-shadow: 0px 5px 30px 8px #000080 inset; 
-	background-color: #3333ff; 
+li.hobbies{
+	background-color: #ffc000;
+	box-shadow: 0px 5px 30px 8px #b37400 inset; 
 }
-li.past:hover{
-	background-color: #3333ff;
+li.hobbies:hover{
+	background-color: #ffc000;
 }
-main .family{
+main .skating{
 	margin-top: 10px;
-	background-color: rgba(0, 0, 230, 0.2);
+	background-color: rgba(255, 138, 0, 0.2);
 padding: 5px;
 	width: 100%;
 	float: left;
 	text-align: left;
 	}
-main .city{
-	background-color: rgba(0, 0, 230, 0.4);
+main .guitar{
+	background-color: rgba(255, 138, 0, 0.4);
 padding: 5px;
 	width: 100%;
 	float: left;
 	text-align: left;
 }
-main .tercer{
-	background-color: rgba(0, 0, 230, 0.5);
+main .cooking{
+	background-color: rgba(255, 138, 0, 0.5);
 padding: 5px;
 	width: 100%;
 	float: left;
@@ -44,7 +44,7 @@ main img{
 	float:left;
 	width: 39%;
 }
-section.family img, section.city img, section.tercer img{
+section.skating img, section.guitar img, section.cooking img{
 	float: left;
 	margin:10px 10px;
 	width: 20%;
@@ -57,17 +57,17 @@ section.intro h2{
 }
 section.intro p {
 	padding: 20px 15px;
-	width: 55%;
+	width: 80%;
 	float: left;
 	line-height: 1.3;
 
 }
-section.family h3, section.city h3, section.tercer h3 {
+section.skating h3, section.guitar h3, section.cooking h3 {
 	text-align: left;
 	width: 90%;
 
 }
-section.family p, section.city p, section.tercer p {
+section.skating p, section.guitar p, section.cooking p {
 	padding: 15px;
 	float: left;
 	width: 70%;
