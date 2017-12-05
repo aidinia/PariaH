@@ -55,8 +55,8 @@ main ul{
 	margin: 5px;
 	float: left;
 list-style-type: none;
- border-left: 4px solid #e60000;
-  border-top: 4px solid #e60000;
+ border-left: 4px solid #940000;
+  border-top: 4px solid #940000;
 }
 
 main li{
@@ -169,7 +169,7 @@ li.cv:hover{
 main{
 	background-color: #b1acac;
 	font-family: 'Special Elite', cursive;
-	color: #e60000;
+	color: 	#940000;
 	border: solid 20px #ff0000;
 
 }
