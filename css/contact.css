@@ -1,12 +1,12 @@
 /* basic layout menu and back color */
 body{
-	background-color: #ffff00;
+	background-color: #fff514;
 }
 main{
 	background-color: #b1acac;
 	font-family: 'Special Elite', cursive;
 	color: #fff976;
-	border: solid 20px #ffff00;
+	border: solid 20px #fff514;
 	
 
 }
