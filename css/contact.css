@@ -5,7 +5,7 @@ body{
 main{
 	background-color: #b1acac;
 	font-family: 'Special Elite', cursive;
-	color: #ffee00;
+	color: #fff976;
 	border: solid 20px #ffff00;
 	
 
@@ -32,7 +32,7 @@ float: left;
 	width: 100%;
 	padding: 5px;
 	float: left;
-	background-color: rgba(255, 255, 0, 0.4)
+	background-color: rgba(255, 255, 0, 0.5)
 }
 section.map{
 	width: 45%;
@@ -54,15 +54,12 @@ section.intro h2{
 	height: 
 }
 section.intro #texto{
-	padding: 50px 10px;
+	padding: 50px 20px;
 	float: left;
 	text-align: left;
 	width: 45%;
 }
-section.contact, section.contact p{	
-	float: left;
-width: 60%;
-}
+
 
 /*images & icons */
 img.icon{
